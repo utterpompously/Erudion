@@ -1,0 +1,408 @@
+/*// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap*/
+
+@media (min-width: 320px) and (max-width: 575px){
+	
+	.header .more p {
+		margin-top: 80px;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+
+	.menu{
+		display: none;
+	}
+	.header .logo{
+		text-align: center;
+	}
+
+	.header-bottom{
+		padding-bottom: 15px;
+	}
+	.slicknav_btn{
+		
+	}
+	.slicknav_nav a{
+		border-bottom: 1px solid #ddd;
+		margin: 0;
+		color: #333;
+		background: #FFB607;
+	}
+	.slicknav_nav .slicknav_row{
+		margin: 0;
+	}
+	.slide-carousel .item h5{
+		padding: 20px;
+	}
+	.heading{
+		width: 300px;
+		margin: 0 auto;
+	}
+	.class-text{
+		margin-top: 20px;
+	}
+	.class-text .left{
+		float: none;
+		text-align: center;
+	}
+	.class-text .right{
+		float: none;
+		text-align: center;
+	}
+	.class-text h3{
+		text-align: center;
+		margin-top: 30px;
+	}
+	
+	.testimonial-wrapper .test-box{
+		padding: 15px;
+		margin-bottom: 25px;
+	}
+	.image-inner .icon{
+		left: 8%;
+	}
+	.counterup .box{
+		margin-bottom: 20px;
+	}
+	.blog .blog-content .image img{
+		max-width: 80px;
+		height: 80px;
+	}
+	.blog .blog-box{
+		margin-left: 35px;
+		padding-left: 50px;
+		margin-top: 35px;
+		padding-top: 15px;
+	}
+	.blog-box .text i{
+		margin-right: 10px;
+
+	}
+	.blog .text .right{
+		margin-left: 0;
+	}
+	.blog-content .item{
+		margin-bottom: 25px;
+	}
+	.hover .icon{
+		left: 30%;
+	}
+	.blog-content .item:hover .icon{
+		top: 35%;
+	}
+	.blog-content .icon i{
+		font-size: 14px;
+		width: 30px;
+		height: 30px;
+		line-height: 30px;
+	}
+	.signform input[type=email], select{
+		width: 100%;
+		 border: 1px solid #ffb607;
+		 margin-top: 15px;
+	}
+	.signform input[type=submit]{
+		margin-top: 15px;
+	}
+	.footer .socialicons{
+		margin-bottom: 25px;
+		margin-top: 15px;
+	}
+}
+@media (min-width: 320px) and (max-width: 459px){
+	.gallery .image{
+		width: 100%;
+		overflow: hidden;
+	}
+	.gallery .image:hover .image-bg1{
+		border-bottom: 150px solid #ffb607;
+		border-left: 440px solid transparent;
+	
+	}
+	.gallery .image .icon{
+		top: 65px;
+		left: 30%;
+	}
+
+}
+@media (min-width: 460px) and (max-width: 575px){
+	.gallery .image{
+		width: 100%;
+		overflow: hidden;
+	}
+	.gallery .image:hover .image-bg1{
+		border-bottom: 150px solid #ffb607;
+		border-left: 550px solid transparent;
+	
+	}	
+	.gallery .image .icon{
+		top: 55px;
+		left: 40%;
+	}
+
+}
+@media (min-width: 576px) and (max-width: 768px){
+	.header{
+		display: inline;
+		width: 100%;
+		padding: 20px;
+	}
+	.header .logo{
+		width: 50%;
+		float: left;
+	}
+	.header .more{
+		width: 50%;
+		float: left;
+	}
+	.header .more p{
+		
+		margin-top: 0;
+	}
+	.menu{
+		display: none;
+	}
+}
+/*// Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 576px) and (max-width: 767px){ 
+	
+	
+	.heading{
+		width: 530px;
+		margin: 0 auto;
+	}
+	.slide-carousel .item h5{
+		padding: 20px;
+	}
+	.we-offer{
+		width: 100%;
+		
+	}
+	.we-offer .ddd{
+		width: 50%;	
+		
+	}
+	.we-offer .box-smp{
+		float: left;
+	}
+	.we-offer .box-smp:nth-child(2n+2){
+		
+	}
+	.our_classes{
+		width: 100%;
+	}
+	.our_classes .class-date{
+		width: 20%;
+		float: left;
+	}
+	.our_classes .class-video{
+		width: 80%;
+		float: left;
+	}
+	.gallery {
+		width: 100%;
+	}
+	.gallery-control{
+		width: 50%;
+	}
+	.gallery .image{
+		width: 100%;
+		overflow: hidden;
+	}
+	.gallery .image:hover .image-bg1{
+		border-bottom: 150px solid #ffb607;
+		border-left: 360px solid transparent;
+	
+}	
+	.gallery .image .icon{
+		top: 55px;
+		left: 32%;
+	}
+	.testimonial-wrapper{
+		width: 100%;
+	}
+	.testimonial-wrapper .t-control{
+		width: 50%;
+		
+	}
+	.testimonial-wrapper .test-box{
+		
+		float: left;
+	}
+	.our-instructor{
+		width: 100%;
+		overflow: hidden;
+	}
+	.our-instructor .item{
+		width: 50%;
+		overflow: hidden;
+	}
+	.counterup{
+		width: 100%;
+	}
+	.counterup .control{
+		width: 50%;
+		margin-bottom: 30px;
+	}
+	.blog-content .item{
+		margin-bottom: 30px;
+	}
+	.signform input[type=email], select{
+		width: 100%;
+		 border: 1px solid #ffb607;
+		 margin-top: 15px;
+	}
+	.signform input[type=submit]{
+		margin-top: 15px;
+	}
+	.footer{
+		width: 100%;
+	}
+	.foot-control{
+		width: 50%;
+	}
+
+	.footer .update{
+		text-align: center;
+		margin-top: 40px;
+	}
+	.footer .update .linking{
+		margin-left: 20%;
+	}
+
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991px){ 
+
+	
+	.header{
+		width: 100%;
+		padding: 20px;
+	}
+	
+	.header .more p{
+		
+		margin-top: 0;
+	}
+	.menu{
+		display: none;
+	}
+	.heading{
+		width: 600px;
+		margin: 0 auto;
+	}
+	.slide-carousel .item h5{
+		padding: 20px;
+	}
+	.class-box{
+		margin-bottom: 30px;
+		padding-bottom: 15px;
+	}
+	.blog .blog-content .image img{
+		max-width: 120px;
+		height: 120px;
+	}
+	.blog .blog-box{
+		margin-left: 55px;
+		padding-left: 70px;
+		margin-top: 40px;
+		padding-top: 25px;
+	}
+	.hover .icon{
+		left: 30%;
+	}
+	.blog-content .item:hover .icon{
+		top: 35%;
+	}
+	.blog-content .icon i{
+		font-size: 18px;
+		width: 40px;
+		height: 40px;
+		line-height: 40px;
+	}
+	.blog .text .right{
+		margin-left: 0;
+	}
+	.image-inner .icon ul li i{
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 18px;
+	
+	}
+	.image-inner .icon ul li{
+		margin-right: 15px;
+	}
+	.image-inner .icon{
+		left: 15%;
+	}
+	.our-instructor-inner .inner:hover .image-inner .icon{
+		top: 30%;
+	}
+	.our-instructor .inner{
+		width: 100%;
+		overflow: hidden;
+	}
+	.gallery .image{
+		overflow: hidden;
+	}
+	.gallery .image .icon{
+		left: 20%;
+		top: 50px;
+	}
+	.gallery .image i{	
+		
+		font-size: 18px;
+		width: 40px;
+		height: 40px;
+		line-height: 40px;
+		
+	}
+	.gallery .image:hover .image-bg1{
+		
+		border-left: 320px solid transparent;
+	}
+	.image-inner{
+		width: 100%;
+		overflow: hidden;
+	}
+	.footer .contact i{
+		margin-right: 0;
+		
+	}
+	.footer .contact p{
+		font-size: 13px;
+	}
+ }
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199px){ 
+
+	.heading{
+		width: 600px;
+		margin: 0 auto;
+	}
+	.slide-carousel .item h5{
+		padding: 25px 120px;
+	}
+	.menu ul li a{
+		padding: 15px 15px;
+	}
+	.gallery .image{
+		max-width: 100%;
+		overflow: hidden;
+	}
+ }
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+	.heading{
+		width: 625px;
+		margin: 0 auto;
+	}
+	.slide-carousel .item h5{
+		padding: 25px 220px;
+	}
+ }
